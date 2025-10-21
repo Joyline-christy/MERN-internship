@@ -1,0 +1,79 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile div{
+    padding: 10px;
+   
+}
+.card .content{
+    display: flex;
+    gap: 20px;
+    font: 20px;
+}
+img{
+    background-color: aliceblue;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    
+    margin: 20px;
+}
+.card{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    background-color: rgb(60, 7, 7);
+    align-items: center;
+    height: 600px;
+    box-shadow: 5px 5px 4px rgb(126, 26, 25);
+    
+    margin: 20px;
+width: 350px;}
+.icons {
+    display: flex;
+    justify-content: center;     /* center all icons horizontally */
+    gap: 20px;                   /* space between icons */
+    margin-top: 20px;
+  }
+  
+  .icons div {
+    background: linear-gradient(rgb(240, 4, 44),rgb(202, 11, 94));     /* icon background */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;          
+    display: flex;               
+    justify-content: center; 
+    align-items: center;         
+    transition: 0.3s ;
+  }
+  .icons div:hover {      
+    transform: scale(1.1);
+  }
+  
+  .icons i {
+    color: white;
+    font-size: 20px;             
+  }
+ .btn button{
+        border: 2px solid blue;
+        padding: 10px 5px;
+        width: 100%;
+        outline: 0;
+        
+
+    }
+
+    .btn{
+        width: 100%;
+        margin: 10px;
+        margin: 10px;
+       
+
+    }
+    .btn div :hover{
+      transform: scale(1.1);
+      transition: 0.4s;
+    }
+    

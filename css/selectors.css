@@ -1,0 +1,97 @@
+*{
+     padding: 0px;  
+     margin: 0px;  
+     box-sizing: border-box;
+}
+/*element selector*/
+table{
+    background: linear-gradient(rgb(48, 137, 161),rgb(5, 194, 178));
+
+}
+ /* class selectors*/   
+.para{
+    color: aquamarine;
+}
+h1.para2{
+    background: radial-gradient(rgb(214, 70, 70),pink); 
+}
+.navi{
+
+    background-color: rgb(21, 21, 22);
+    padding: 10px;
+}
+.navi a{
+    text-decoration: none;
+font-size: larger;
+font-style: italic;
+font-weight: 700;
+color: aliceblue;
+padding: 8px;
+background: linear-gradient(grey,rgb(127, 158, 120));
+border-radius: 8px;
+
+}
+ /* id selectors*/   
+#para{
+    background-color: blue;}
+    #tab{
+        padding: 15px;
+     }
+ /* descendent selectors*/   
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+} 
+ 
+div .hi{
+    color: blue;
+    font-weight: 700;
+
+}
+
+.forms{
+    background: linear-gradient(pink,violet);
+    height: 250px;
+    width: 500px;
+    padding: 13px;
+}
+.forms {
+    font-weight: 300;
+    border: 75px;
+    padding-top: 20px;text-align: center;
+}
+.forms label input{
+    padding: 5px;
+    margin: 10px;
+    text-align: start;
+}
+.forms label {
+     padding-top: 55px;
+font-size:x-large;
+font-style: italic;
+margin-left: 30px;
+}
+button{
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+/* child selector */
+div > h1{
+    font-style: italic;
+    color: brown !important;
+}
+/* adjacent sibling */
+   p + h1{
+    color: chartreuse;
+    font-size: x-large;
+    }
+    /* general sibling */
+    p ~ h1{
+        background-color: blanchedalmond ;
+    }
+
+    /* pseudo classes */
+    
+    

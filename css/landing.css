@@ -1,0 +1,18 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.forms label input:focus,textarea:focus{
+background-color: rgb(236, 244, 244);
+}
+a:active{
+background-color: rgb(172, 95, 137);
+}
+a:visited{
+    color: rgb(249, 248, 249);
+}
+*{
+   align-items: start; 
+}
