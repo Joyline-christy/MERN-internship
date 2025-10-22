@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;          
+    background-color: #111;  
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 600px;                 /* centers items inside each cell */
+}
+.card01{
+    border-radius: 30px;
+    color: rgb(252, 252, 252);
+width: 270px;
+height:270px;
+background:linear-gradient(to top,black,rgb(5, 162, 107));
+padding: 20px;
+grid-column: 1/2;
+grid-row: 1/2;
+}
+.card02{
+    border-radius: 30px;
+    color: rgb(252, 252, 252);
+width: 270px;
+height:270px;
+background:linear-gradient(to top,black,rgb(133, 114, 3));
+padding: 20px;
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
+.card03{
+    border-radius: 30px;
+    color: rgb(252, 252, 252);
+width: 270px;
+height:270px;
+background:linear-gradient(to top,black,rgb(139, 2, 25));
+padding: 20px;
+grid-column: 1/2;
+grid-row: 2/3;
+}
+.card04{
+    border-radius: 30px;
+    color: rgb(252, 252, 252);
+width: 270px;
+height:270px;
+background:linear-gradient(to top,black,rgb(1, 17, 70));
+padding: 20px;
+grid-column: 2/3;
+grid-row: 2/3;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+   
+    
+}
+.main{
+    text-align: center;
+    margin-bottom: 20px;
+    }
+.progress{
+    display: flex;
+    flex-direction: column;
+  position: relative;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 20px
+  
+    }
+    .progress > p{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    
+        
+    
+.back{
+    height: 4px;
+    background-color: cadetblue;
+    border: none;
+    width: 100%;
+    
+}
+.progress .front{
+    background-color: rgb(5, 255, 201);position: absolute;width: 90%;
+    height: 4px;
+    border: none;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    
+    gap: -20px;
+}
+img{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.plus{
+    background-color: rgb(5, 255, 201);
+    border-radius: 50%;text-align: center;
+    height: 20px;
+    width: 20px;
+}
+.profiles img:not(:first-child),
+.profiles .plus {
+  margin-left: -8px;            /* adjust overlap amount */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+div button{
+    background-color: rgb(72, 64, 64) ;
+    color: white;
+    padding: 7px 11px;
+    border-radius: 20px;
+   
+    border: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}

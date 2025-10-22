@@ -1,11 +1,18 @@
 *{padding: 0;
-    margin: 0;
+  margin: 0;
     box-sizing: border-box;
 }
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
 
+}
 .profile div{
     padding: 10px;
-   
+      
 }
 .card .content{
     display: flex;
@@ -15,26 +22,27 @@
 img{
     background-color: aliceblue;
     border-radius: 200px;
+    box-shadow: 5px 8px 10px rgb(238, 11, 106);
     height: 200px;
     width: 200px;
     
     margin: 20px;
 }
-.card{
-    display: flex;
-    margin: 20px;
-    flex-direction: column;
-    background-color: rgb(60, 7, 7);
-    align-items: center;
-    height: 600px;
-    box-shadow: 5px 5px 4px rgb(126, 26, 25);
-    
-    margin: 20px;
-width: 350px;}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(57, 47, 47);
+  height: 620px;
+  width: 350px;
+  margin: 20px;
+  box-shadow: 5px 5px 4px rgb(126, 26, 25);
+  border-radius: 12px;
+}
 .icons {
     display: flex;
     justify-content: center;     /* center all icons horizontally */
-    gap: 20px;                   /* space between icons */
+    gap: 10px;                   /* space between icons */
     margin-top: 20px;
   }
   
@@ -57,16 +65,20 @@ width: 350px;}
     font-size: 20px;             
   }
  .btn button{
-        border: 2px solid blue;
+        border: 4px solid rgb(43, 231, 184);
         padding: 10px 5px;
+        background-color: rgb(57, 47, 47);
         width: 100%;
         outline: 0;
+        color: rgb(43, 231, 184);
+        letter-spacing: 2px;
+        
         
 
     }
 
     .btn{
-        width: 100%;
+        width: 80%;
         margin: 10px;
         margin: 10px;
        

@@ -1,0 +1,41 @@
+.program{
+    background-color: rgb(249, 246, 246);
+    color: black;
+    height: 200px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px grey;
+
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   gap: 20px;
+background-color: rgb(225, 218, 210);
+}
+.icon01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.box .program .icon01 i{
+
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right,rgb(250, 5, 87),rgb(53, 9, 47));
+   
+}
+hr{
+    height: 3px;
+    background: linear-gradient(to right,rgb(250, 5, 87),rgb(53, 9, 47));
+}
