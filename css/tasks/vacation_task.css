@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Top Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF3F7F;
+    padding: 10px 275px;
+    color: #fff;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 275px;
+    background-color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    color: #222;
+  }
+  
+  /* Navigation Links */
+  nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #FF3F7F;
+  }
+  .image img{
+    width: 100%;
+    height: 650px;
+  }
+  .box .boxp{
+    display: flex;
+  }
+  .image{
+    position: relative;
+  }
+.box {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  width: 280px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.box div:first-child p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+/* Applies to all p tags except the first one */
+.box div:not(:first-child) p {
+  background-color: rgb(236, 230, 230);
+  padding: 8px 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+.boxp{
+    display: flex;
+gap: 10px;}
+/* Styles the button inside .box */
+.box button {
+  background-color: #FF3F7F;
+  padding: 10px 20px;
+  margin: 5px 0;
+  width: 100%;
+  color: white;
+  border: none;
+  
+  font-size: 15px;
+}
+
+  .image .container {
+    position: absolute;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;  /* important: define width so space-between works */
+    color: white;  /* so it’s visible */
+    top: 50%;  /* position vertically (you can adjust this) */
+  left: 50%;
+  transform: translate(-50%, -50%); /* center it */
+  
+  }
+ .content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+
+ }
+ .content h1{
+    font-size: 50px;
+ }
+ .content button:not(:last-child){
+    color: white;
+  border: none;
+  background-color: #FF3F7F;
+  padding: 10px 20px;
+  font-size: 15px;
+ }
+ .content button{
+    color: rgb(10, 9, 9);
+  border: none;
+  background-color: #fdfbfb;
+  padding: 10px 20px;
+  font-size: 15px;
+ }
+ .content div button
+ {margin-right: 10px;}
+  
